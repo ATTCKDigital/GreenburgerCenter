@@ -11,8 +11,10 @@
 // @import 'fonts'; // Override parent theme fonts variables from child if needed
 @import 'FLEX/scss/_fonts-mixins.scss';
 @import 'FLEX/scss/_colors.scss';
+@import '../scss/_colors-child.scss';
 @import 'FLEX/scss/_debug.scss';
 @import 'FLEX/scss/_global.scss';
+@import '../scss/_global-child.scss';
 @import 'FLEX/scss/_layout.scss';
 @import 'FLEX/scss/_component.scss';
 @import 'FLEX/scss/_hidden.scss';
@@ -40,7 +42,7 @@
 
 // Components
 @import '../components/component_nav/_nav.scss';
-@import 'FLEX/components/component_footer/_footer.scss';
+@import '../components/component_footer/_footer.scss';
 @import 'FLEX/components/component_archive-feed/_archive-feed.scss';
 @import 'FLEX/components/component_share/_share.scss';
 @import 'FLEX/gutenberg/blocks/block_quote/_quote.scss';

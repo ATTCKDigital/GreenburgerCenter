@@ -1,6 +1,9 @@
 /**** Global Nav Styles ****/
-//Override with custom styles in child theme
+// Overrides parent theme
 .component-header {
+	// TODO: Possibly unhide this later if we determine we need a global nav
+	display: none !important;
+
 	height: $navMobileHeight;
 	left: 0;
 	position: fixed;
