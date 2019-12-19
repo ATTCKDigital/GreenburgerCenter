@@ -73,8 +73,6 @@ define('SECURE_AUTH_SALT', '');
 define('LOGGED_IN_SALT',   '');
 define('NONCE_SALT',       '');
 
-/**#@-*/
-
 /**
  * WordPress Database Table prefix.
  *
@@ -104,6 +102,8 @@ define( 'WP_MEMORY_LIMIT', '256M' );
 
 //remove p tags from cf7
 define('WPCF7_AUTOP', false );
+
+define('FS_METHOD','direct');
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
