@@ -76,7 +76,7 @@ module.exports = smp.wrap({
 
   resolve: {
     alias: {
-      'flexlayout': path.resolve(__dirname, '../flexlayout'),
+      'FLEX': path.resolve(__dirname, '../FLEX'),
       // 'flexlayout':'clientNamespace.js',
     },
     modules: [

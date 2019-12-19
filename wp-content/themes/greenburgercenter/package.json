@@ -81,11 +81,6 @@
 		"jquery-bridget": "^2.0.1",
 		"lodash": "^4.17.15"
 	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "../flexlayout/.githooks/checkfilesize"
-		}
-	},
 	"scripts": {
 		"dev": "NODE_ENV=development webpack",
 		"measure": "NODE_ENV=development MEASURE=true webpack",
