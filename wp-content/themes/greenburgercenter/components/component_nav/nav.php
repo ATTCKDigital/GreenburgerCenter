@@ -2,6 +2,7 @@
 	//Global Nav 
 ?>
 <header class="component-header component" data-component-name="Nav" role="banner">
+	<?php /*
 	<div class="header-inner">
 		<div class="hamburger-wrapper">
 			<mark class="hamburger"></mark>
@@ -25,4 +26,5 @@
 			</ul>
 		</nav>
 	</div>
+	*/ ?>
 </header>
